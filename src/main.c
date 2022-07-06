@@ -43,6 +43,7 @@ main(int argc, char * argv[])
 	 *	samples used to create the distribution.
 	 */
 	double x = uniformDistribution(0, 2);
+	printf("X = %.2lf\n", x);
 
 	/*
 	 *	When computing with x, the operation happens (1) on the level of the
